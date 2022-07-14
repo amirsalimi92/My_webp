@@ -1,0 +1,147 @@
+@font-face {
+    font-family: theCircous;
+    src: url(/fonts/ttf/TheCircousStriped.ttf);
+}
+
+
+.normalTheme {
+    background-color: #f3f3f3;
+    transition: 0.7s;
+}
+
+
+.devTheme {
+    background-color: #121212;
+    transition: 0.2s;
+    color: #e1e1e1;
+}
+
+.sticky-top-bg {
+    background-color: #fff;
+    transition: 0.7s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+
+.text {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    padding-right: 45%;
+}
+
+.design {
+    background-color: black;
+    font-weight: lighter;
+}
+
+.designDev {
+    background-color: #e1e1e1;
+    font-weight: lighter;
+    z-index: 1;
+}
+
+.design:hover,
+.designDev:hover {
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.contact {
+    text-decoration: none;
+    font-weight: bold;
+    color: orangered;
+}
+
+.footer {
+    /* font-size: 1.15rem; */
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+
+.horizant {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.linkedin {
+    display: block;
+    height: 28px;
+    width: 28px;
+    border-radius: 4px;
+}
+
+.github {
+    display: block;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+}
+
+.cvbut {
+    font-weight: bolder;
+    font-size: larger;
+    color: orangered;
+    padding-bottom: 3%;
+}
+
+.cvbut:hover {
+    border-bottom: 2px solid orangered;
+    transition: 0.1s;
+}
+
+p {
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.theme {
+    background-image: url('/media/dev.png');
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer !important;
+    position: fixed;
+    right: 2%;
+    top: 15%;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    border-radius: 4px;
+}
+
+.theme:hover {
+    width: 50px;
+    height: 50px;
+    transition: 0.2s;
+}
+
+.contactDev,
+.cvbutDev {
+    color: #91b852;
+}
+
+.linkedinDev {
+    background-color: #121212;
+
+}
+
+.githubDev {
+    background-color: #121212;
+}
