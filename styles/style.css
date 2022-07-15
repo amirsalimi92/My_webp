@@ -40,7 +40,7 @@ a {
 }
 
 .design {
-    background-color: black;
+    background-color: #212529;
     font-weight: lighter;
 }
 
@@ -77,6 +77,7 @@ li {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 1em;
 }
 
 .linkedin {
@@ -98,9 +99,12 @@ li {
     font-size: larger;
     color: orangered;
     padding-bottom: 3%;
+    transition: 0.1s;
 }
 
 .cvbut:hover {
+    padding-top: 2%;
+    border-top: 0.1px outset orangered;
     border-bottom: 2px solid orangered;
     transition: 0.1s;
 }
@@ -124,6 +128,7 @@ p {
     height: 36px;
     padding: 0;
     border-radius: 4px;
+    transition: 0.4s;
 }
 
 .theme:hover {
