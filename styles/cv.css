@@ -134,7 +134,7 @@
 }
 
 .w3-text-grey {
-    color: #757575 !important
+    color: #000 !important
 }
 
 .w3-text-black,
@@ -162,7 +162,7 @@
 
 .w3-white {
     color: #000 !important;
-    background-color: #fff !important
+    background-color: #f3f3f3 !important
 }
 
 .w3-xxlarge {

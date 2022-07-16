@@ -3,6 +3,19 @@
     src: url(/fonts/ttf/Play-Bold.ttf);
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+
+p {
+    margin-bottom: 0;
+}
 
 .normalTheme {
     background-color: #f3f3f3;
@@ -21,9 +34,6 @@
     transition: 0.7s;
 }
 
-a {
-    text-decoration: none;
-}
 
 .img {
     max-width: 80%;
@@ -67,11 +77,7 @@ a {
     font-weight: bold;
 }
 
-li {
-    list-style: none;
-    padding-right: 2%;
-    padding-top: 2%;
-}
+
 
 .horizant {
     display: flex;
@@ -87,6 +93,11 @@ li {
     border-radius: 4px;
 }
 
+.linkedinDev {
+    background-color: #121212;
+
+}
+
 .github {
     display: block;
     height: 28px;
@@ -94,25 +105,60 @@ li {
     border-radius: 50%;
 }
 
+.githubDev {
+    background-color: #121212;
+}
+
 .cvbut {
+    /* position: relative; */
+    font-display: inline-block;
+    padding: 10px 20px;
+    color: orangered;
     font-weight: bolder;
     font-size: larger;
-    color: orangered;
-    padding-bottom: 3%;
+    text-decoration: none;
+    overflow: hidden;
     transition: 0.1s;
 }
 
 .cvbut:hover {
-    padding-top: 2%;
-    border-top: 0.1px outset orangered;
-    border-bottom: 2px solid orangered;
+    border-radius: 5px;
+    color: orangered;
+    transition: 0.1s;
+    box-shadow: 0 0 3px orangered;
+}
+
+.backbut {
+    /* position: relative; */
+    font-display: inline-block;
+    padding: 10px 20px;
+    color: #0072b1;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+    overflow: hidden;
     transition: 0.1s;
 }
 
-p {
-    margin-bottom: 0;
-    font-weight: bolder;
-    font-size: larger;
+.backbut:hover {
+    border-radius: 5px;
+    color: #0072b1;
+    transition: 0.1s;
+    box-shadow: 0 0 3px #0072b1;
+}
+
+.contactDev,
+.cvbutDev {
+    color: #91b852;
+}
+
+.cvbutDev:hover {
+    color: #91b852;
+    box-shadow: 0 0 3px #91b852;
+}
+
+.contactDev:hover {
+    color: #91b852;
 }
 
 .theme {
@@ -135,18 +181,4 @@ p {
     width: 50px;
     height: 50px;
     transition: 0.2s;
-}
-
-.contactDev,
-.cvbutDev {
-    color: #91b852;
-}
-
-.linkedinDev {
-    background-color: #121212;
-
-}
-
-.githubDev {
-    background-color: #121212;
 }

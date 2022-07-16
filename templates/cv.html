@@ -1,23 +1,32 @@
 <!DOCTYPE html>
-<html>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/styles/cv.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-    html,
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: "Roboto", sans-serif
-    }
-</style>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/cv.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/styles/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/media/logo.png" type="image/x-icon">
+    <style>
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Roboto", sans-serif
+        }
+    </style>
+    <title>CV of me</title>
+</head>
 
 <body class="w3-light-grey">
 
@@ -34,10 +43,10 @@
                     <div class="w3-display-container">
                         <img src="/media/profile_pic_color.png" style="width:100%" alt="Avatar">
                         <div class="w3-display-bottomleft w3-container w3-text-black">
-                            <h2 style="color: white;">Amir Salimi</h2>
+                            <h2 style="color: white; font-weight: bolder;">Amir Salimi</h2>
                         </div>
                     </div>
-                    <div class="w3-container">
+                    <div class="w3-container pt-3">
                         <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Web Developer</p>
                         <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Bonn, DE</p>
                         <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>amir.salimi@gmx.net
@@ -92,6 +101,10 @@
             <div class="w3-twothird">
 
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
+                    <div class="p-4">
+                        <a class="backbut mt-3" href="/templates/index.html">Back</a>
+                    </div>
+
                     <h2 class="w3-text-grey w3-padding-16"><i
                             class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience
                     </h2>
@@ -144,6 +157,7 @@
                         <p>Highschool Diploma</p>
                         <p>Field: Mathematic</p>
                         <p>Final grade: 2.0</p>
+                        <br>
                     </div>
                 </div>
                 <div class="w3-container w3-card w3-white">
@@ -158,6 +172,7 @@
 
         <!-- End Page Container -->
     </div>
+    <script src="/response/index.js"></script>
 </body>
 
 </html>
