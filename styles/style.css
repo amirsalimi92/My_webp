@@ -66,18 +66,56 @@ p {
     transition: 0.3s;
 }
 
+.cvbut {
+    /* position: relative; */
+    font-display: inline-block;
+    padding: 10px 20px;
+    color: orangered;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.1s;
+}
+
+.cvbut:hover {
+    border-radius: 5px;
+    color: orangered;
+    transition: 0.1s;
+    box-shadow: 0 0 3px orangered;
+}
+
 .contact {
     text-decoration: none;
     font-weight: bold;
     color: orangered;
 }
 
+.contact:hover {
+    color: darkred;
+    font-weight: bolder;
+    transition: 0.1s;
+}
+
+.contactDev:hover {
+    color: #91b852;
+}
+
+.contactDev,
+.cvbutDev {
+    color: #91b852;
+}
+
+.cvbutDev:hover {
+    color: #91b852;
+    box-shadow: 0 0 3px #91b852;
+}
+
+
 .footer {
     /* font-size: 1.15rem; */
     font-weight: bold;
 }
-
-
 
 .horizant {
     display: flex;
@@ -109,25 +147,6 @@ p {
     background-color: #121212;
 }
 
-.cvbut {
-    /* position: relative; */
-    font-display: inline-block;
-    padding: 10px 20px;
-    color: orangered;
-    font-weight: bolder;
-    font-size: larger;
-    text-decoration: none;
-    overflow: hidden;
-    transition: 0.1s;
-}
-
-.cvbut:hover {
-    border-radius: 5px;
-    color: orangered;
-    transition: 0.1s;
-    box-shadow: 0 0 3px orangered;
-}
-
 .backbut {
     /* position: relative; */
     font-display: inline-block;
@@ -145,20 +164,6 @@ p {
     color: #0072b1;
     transition: 0.1s;
     box-shadow: 0 0 3px #0072b1;
-}
-
-.contactDev,
-.cvbutDev {
-    color: #91b852;
-}
-
-.cvbutDev:hover {
-    color: #91b852;
-    box-shadow: 0 0 3px #91b852;
-}
-
-.contactDev:hover {
-    color: #91b852;
 }
 
 .theme {
