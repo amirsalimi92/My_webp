@@ -168,8 +168,8 @@ p {
     background-position: center;
     cursor: pointer !important;
     position: fixed;
-    right: 2%;
-    top: 15%;
+    right: 5%;
+    top: 25%;
     width: 36px;
     height: 36px;
     padding: 0;
@@ -181,4 +181,23 @@ p {
     width: 50px;
     height: 50px;
     transition: 0.2s;
+}
+
+.scroll {
+    border: none;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: -50px;
+    cursor: auto !important;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.scroll.show {
+    cursor: pointer !important;
+    opacity: 1;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
 }
