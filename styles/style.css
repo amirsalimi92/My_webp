@@ -86,6 +86,7 @@ p {
 }
 
 .contact {
+    display: flex;
     text-decoration: none;
     font-weight: bold;
     color: orangered;
@@ -109,6 +110,10 @@ p {
 .cvbutDev:hover {
     color: #91b852;
     box-shadow: 0 0 3px #91b852;
+}
+
+.arrange {
+    display: flex;
 }
 
 
