@@ -46,7 +46,7 @@ p {
 .text {
     padding-top: 25%;
     padding-bottom: 25%;
-    padding-right: 45%;
+    padding-right: 25%;
 }
 
 .design {
@@ -210,4 +210,8 @@ p {
     position: fixed;
     right: 20px;
     bottom: 20px;
+}
+
+.print {
+    cursor: pointer;
 }
