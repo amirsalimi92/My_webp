@@ -13,6 +13,6 @@ btn.addEventListener("click", e => {
     window.scrollTo({ top: 0, behavior: "smooth" })
 })
 
-function print() {
-    window.print()
+function myprint() {
+    window.print();
 }
