@@ -34,6 +34,10 @@ p {
     transition: 0.7s;
 }
 
+.sticky-top-bg-dev {
+    background-color: #121212;
+}
+
 
 .img {
     max-width: 80%;
@@ -160,7 +164,7 @@ p {
     font-weight: bolder;
     font-size: larger;
     text-decoration: none;
-    overflow: hidden;
+    /* overflow: hidden; */
     transition: 0.1s;
 }
 

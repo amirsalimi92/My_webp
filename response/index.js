@@ -12,7 +12,8 @@ var header = document.querySelector("#header")
 
 function devTheme() {
     body.classList.add("devTheme")
-    header.classList.remove("sticky-top-bg")
+    // header.classList.remove("sticky-top-bg")
+    header.classList.add("sticky-top-bg-dev")
     design.classList.add("designDev")
     cvbut.classList.add("cvbutDev")
     linkedin.classList.add("linkedinDev")
@@ -25,7 +26,8 @@ function devTheme() {
 
 function normal() {
     body.classList.remove("devTheme")
-    header.classList.add("sticky-top-bg")
+    // header.classList.add("sticky-top-bg")
+    header.classList.remove("sticky-top-bg-dev")
     design.classList.remove("designDev")
     cvbut.classList.remove("cvbutDev")
     linkedin.classList.remove("linkedinDev")
